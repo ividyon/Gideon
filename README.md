@@ -1,4 +1,8 @@
-﻿# Gideon - ELDEN RING UI Texture Deployer
+﻿<p align="center">
+  <img src="https://github.com/ividyon/Gideon/blob/main/logo.png?raw=true" />
+</p>
+
+# Gideon - ELDEN RING UI Texture Deployer
 
 Gideon Ofnir, the All-Knowing, is here to carefully handle your MENU_Knowledge (and other UI files) for you.
 
