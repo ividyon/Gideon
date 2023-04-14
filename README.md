@@ -20,7 +20,7 @@ You may distribute Gideon as part of your free mod installs, as intended. I have
 
 ## Requirements
 
-* .NET Desktop Runtime 6.0: https://aka.ms/dotnet-core-applaunch?framework=Microsoft.WindowsDesktop.App^&framework_version=6.0.0
+* .NET Desktop Runtime 6.0: https://aka.ms/dotnet-core-applaunch?framework=Microsoft.WindowsDesktop.App&framework_version=6.0.0
 
 Users who run Gideon in your mod will be scanned for the runtime, and asked to download it in a friendly way. A browser window will even be opened for them. World-class service! 
 
