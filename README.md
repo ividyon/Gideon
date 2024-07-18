@@ -18,13 +18,15 @@ You may **not** alter it, or distribute it as part of commercial products or in 
 
 You may distribute Gideon as part of your free mod installs, as intended. I have no claim over libraries or code snippets by people credited below.
 
-## Requirements
-
-* .NET Desktop Runtime 6.0: https://aka.ms/dotnet-core-applaunch?framework=Microsoft.WindowsDesktop.App&framework_version=6.0.0
-
-Users who run Gideon in your mod will be scanned for the runtime, and asked to download it in a friendly way. A browser window will even be opened for them. World-class service! 
-
 ## What's this for?
+
+You need to know what the ``00_Solo.tpfbhd`, `01_common.tpf.dcx` or `01_common.slytbnd.dcx` archives do, to use this tool.
+
+If you don't know, just open them up using [Yabber](https://github.com/sekirodubi/YabberPlus) and have a look around.
+
+Gideon manages the files that go *inside* those archives, so once you know, you know.
+
+----
 
 Gideon lets you add elements like high-resolution "MENU_KNOWLEDGE" icons, UI textures and UI layouts to your mod while causing as little conflict as possible with other mods.
 
@@ -61,6 +63,7 @@ Extract Gideon to a folder of your choice, then run `Gideon.exe`.
 
 The wizard will lead you every step of the way. The steps are:
 
+* Choose your project name (will be shown to users, and determines folder name of project)
 * Choose your mod folder (the one where `regulation.bin` and folders like `menu` and `chr` are)
 * Choose the categories of file you wish to deploy (Solo, Common and/or Layout) and point at the respective folders you prepared
 * (Optional) Create a shortcut so that you can update your deploy folders with one click whenever you add new files.
@@ -100,6 +103,6 @@ If you're a regular in the Souls modding community with a good track record, you
 
 ## Credits
 
- * Thanks to [TKGP](https://github.com/JKAnderson) for his [SoulsFormats library](https://github.com/JKAnderson/SoulsFormats) which is the only reason this even exists.
- * Thanks to [Nordgaren](https://github.com/Nordgaren) for his code in [Yabber+](https://github.com/sekirodubi/YabberPlus) and [UXM Selective Unpack](https://github.com/Nordgaren/UXM-Selective-Unpack) which allows retrieving files from the user's game archives.
- * Thanks to Kirnifr for [ELDEN RING Reforged](https://www.nexusmods.com/eldenring/mods/541). Check out the mod!
+* Thanks to [TKGP](https://github.com/JKAnderson) for his [SoulsFormats library](https://github.com/JKAnderson/SoulsFormats) which is the only reason this even exists.
+* Thanks to [Nordgaren](https://github.com/Nordgaren) for his code in [Yabber+](https://github.com/sekirodubi/YabberPlus) and [UXM Selective Unpack](https://github.com/Nordgaren/UXM-Selective-Unpack) which allows retrieving files from the user's game archives.
+* Thanks to Kirnifr for [ELDEN RING Reforged](https://www.nexusmods.com/eldenring/mods/541). Check out the mod!
